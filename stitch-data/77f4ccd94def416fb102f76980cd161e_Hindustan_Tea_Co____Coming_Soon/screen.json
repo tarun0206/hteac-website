@@ -1,0 +1,273 @@
+{
+  "screenshot": {
+    "name": "projects/11851651268370158882/screens/77f4ccd94def416fb102f76980cd161e/fileEntries/screenshot",
+    "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1Ucjz-1nkrNDX8zEL6ZAhhzm29q8jWJTYLUoortVmjullWRMb5lY-zMMVzCxC7Z8TUc0HFc-b7D14lwjz-Nw8WHVd4NVMkgYyU6wOcxZe0usHGvMA6vWdHFJ_WEu3V6DRXekshTS1f5q4lxetQpMjCa_0eQNaRbyshQcDOZtnpiLNZSc3HB650LqbNf60TRgXm5reisrpDIGuJf70ZluPzxSkwBNbXDSp55yRQyOhV5lJzOcc-7mVMnlUw"
+  },
+  "htmlCode": {
+    "name": "projects/11851651268370158882/screens/77f4ccd94def416fb102f76980cd161e/fileEntries/html",
+    "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1OWUwZjViMjFhNWEwMzgzOGU3YWE0MzUzM2NhEgsSBxCDtuax3ggYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTg1MTY1MTI2ODM3MDE1ODg4Mg&filename=&opi=89354086",
+    "mimeType": "text/html"
+  },
+  "id": "77f4ccd94def416fb102f76980cd161e",
+  "generatedBy": "figaro_agent",
+  "width": "2560",
+  "height": "2182",
+  "title": "Hindustan Tea Co. - Coming Soon",
+  "prompt": "Create a single-page \"Coming Soon\" website for \"Hindustan Tea Company\". \n\nVisual Layers:\n1. Background: Use the WebGL mist shader {{DATA:ANIMATION:ANIMATION_2}} to create a soothing, interactive deep green atmosphere.\n2. Centerpiece: Embed the 3D interactive tea leaf {{DATA:ANIMATION:ANIMATION_3}} in the center of the hero section. It should have a subtle parallax/tilt effect.\n3. UI Overlay:\n   - Centered Hero content.\n   - Brand: \"Hindustan Tea Company\".\n   - Taglines: \"Family run since 1973, reinterpreted for today.\" and \"First leaf first promise 1973.\"\n   - Secondary Copy: \"Celebrating India's most loved beverage. Bringing blends beyond Milk.\"\n   - CTA: A sleek email input field with a glowing \"Notify Me\" button.\n   - Socials: Minimalist Instagram and social icons at the bottom.\n   - Animations: Smooth sweeping fade-in on load, with staggered reveals for text elements.\n\nApply the {{DATA:DESIGN_SYSTEM:DESIGN_SYSTEM_1}} for colors and typography. Use the predicted components {{DATA:COMPONENTS:COMPONENTS_4}} for the minimalist shell.",
+  "name": "projects/11851651268370158882/screens/77f4ccd94def416fb102f76980cd161e",
+  "theme": {
+    "colorMode": "DARK",
+    "font": "PLAYFAIR_DISPLAY",
+    "roundness": "ROUND_FOUR",
+    "customColor": "#0b1c15",
+    "headlineFont": "PLAYFAIR_DISPLAY",
+    "bodyFont": "INTER",
+    "labelFont": "INTER",
+    "namedColors": {
+      "on_secondary": "#3c2f00",
+      "on_primary": "#23342c",
+      "inverse_primary": "#506259",
+      "primary": "#b7cbc0",
+      "secondary": "#e9c349",
+      "background": "#121414",
+      "on_secondary_fixed_variant": "#574500",
+      "surface_container": "#1e2020",
+      "tertiary": "#e1c299",
+      "on_surface_variant": "#c2c8c3",
+      "outline": "#8c928e",
+      "on_error": "#690005",
+      "tertiary_container": "#251600",
+      "primary_fixed_dim": "#b7cbc0",
+      "surface_container_lowest": "#0c0f0f",
+      "secondary_fixed_dim": "#e9c349",
+      "surface_container_high": "#282a2b",
+      "surface_tint": "#b7cbc0",
+      "on_primary_fixed": "#0e1f18",
+      "error_container": "#93000a",
+      "on_tertiary_fixed_variant": "#584324",
+      "on_primary_container": "#73867c",
+      "surface_bright": "#38393a",
+      "error": "#ffb4ab",
+      "primary_container": "#0b1c15",
+      "primary_fixed": "#d3e7db",
+      "tertiary_fixed_dim": "#e1c299",
+      "on_surface": "#e2e2e2",
+      "on_tertiary_fixed": "#281801",
+      "on_primary_fixed_variant": "#394b42",
+      "surface_container_low": "#1a1c1c",
+      "surface_dim": "#121414",
+      "on_tertiary_container": "#987e59",
+      "surface_container_highest": "#333535",
+      "on_background": "#e2e2e2",
+      "outline_variant": "#424845",
+      "surface_variant": "#333535",
+      "inverse_surface": "#e2e2e2",
+      "on_secondary_fixed": "#241a00",
+      "on_error_container": "#ffdad6",
+      "secondary_container": "#af8d11",
+      "inverse_on_surface": "#2f3131",
+      "on_secondary_container": "#342800",
+      "surface": "#121414",
+      "secondary_fixed": "#ffe088",
+      "on_tertiary": "#402d10",
+      "tertiary_fixed": "#feddb3"
+    },
+    "colorVariant": "FIDELITY",
+    "overridePrimaryColor": "#0b1c15",
+    "overrideSecondaryColor": "#d4af37",
+    "overrideTertiaryColor": "#d2b48c",
+    "overrideNeutralColor": "#f5f5f5",
+    "spacingScale": 2,
+    "typography": {
+      "body-md": {
+        "fontFamily": "Inter",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "1.6"
+      },
+      "title-lg": {
+        "fontFamily": "Playfair Display",
+        "fontSize": "24px",
+        "fontWeight": "500",
+        "lineHeight": "1.4"
+      },
+      "display-lg": {
+        "fontFamily": "Playfair Display",
+        "fontSize": "64px",
+        "fontWeight": "700",
+        "lineHeight": "1.1",
+        "letterSpacing": "-0.02em"
+      },
+      "body-lg": {
+        "fontFamily": "Inter",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "1.6"
+      },
+      "headline-md": {
+        "fontFamily": "Playfair Display",
+        "fontSize": "32px",
+        "fontWeight": "600",
+        "lineHeight": "1.3"
+      },
+      "label-sm": {
+        "fontFamily": "Inter",
+        "fontSize": "12px",
+        "fontWeight": "600",
+        "lineHeight": "1.0",
+        "letterSpacing": "0.1em"
+      },
+      "display-lg-mobile": {
+        "fontFamily": "Playfair Display",
+        "fontSize": "40px",
+        "fontWeight": "700",
+        "lineHeight": "1.2"
+      }
+    },
+    "spacing": {
+      "gutter": "24px",
+      "margin-desktop": "64px",
+      "margin-mobile": "20px",
+      "unit": "8px",
+      "container-max": "1280px"
+    },
+    "headlineFontFamily": "Playfair Display",
+    "bodyFontFamily": "Inter",
+    "labelFontFamily": "Inter"
+  },
+  "deviceType": "DESKTOP",
+  "screenType": "DESIGN",
+  "screenMetadata": {
+    "agentType": "PRO_AGENT",
+    "status": "COMPLETE"
+  },
+  "designSystem": {
+    "name": "assets/0d35905698054772af34979037128999",
+    "designSystem": {
+      "displayName": "Heritage Resurgence",
+      "styleGuidelines": "## Brand & Style\nThis design system visualizes the intersection of a 1973 legacy and a contemporary premium experience. The personality is \"Quiet Authority\"—it is grounded, earthy, and deeply rooted in tea culture, yet feels mathematically precise and modern. \n\nThe aesthetic blends **Modern Minimalism** with **Vintage Editorial** elements. It utilizes heavy whitespace to create a \"soothing\" atmosphere, while structural elements like sophisticated thin borders and subtle glows provide a high-end digital layer over the organic color palette. The UI should evoke the feeling of an exclusive tea estate at dusk—private, warm, and prestigious.\n\n## Layout & Spacing\nThe layout follows a **Fixed Grid** philosophy on desktop to maintain a boutique, controlled feel. Content should never feel \"stretched.\"\n\n- **Grid:** 12-column system with generous 24px gutters.\n- **Margins:** Desktop margins are intentionally large (64px+) to enforce whitespace and \"breathing room.\"\n- **Rhythm:** Use an 8px base unit. Component spacing should lean towards larger values (e.g., 32px, 48px, 64px) to avoid visual clutter and maintain the \"soothing\" brand promise.\n\n## Elevation & Depth\nIn this dark, earthy environment, depth is not created with traditional shadows, but with **Light and Line**:\n\n1.  **Low-Contrast Outlines:** Use 1px borders in **Sepia (#D2B48C)** at 20-30% opacity to define containers.\n2.  **Subtle Glows:** For primary elements or high-end products, use a soft, ultra-diffused outer glow using the **Accent Gold (#D4AF37)** color (Blur: 40px, Opacity: 15%).\n3.  **Tonal Layering:** Elevate secondary surfaces by using a slightly lighter green than the background (e.g., #12261E) rather than using drop shadows.\n\n## Components\n\n- **Buttons:** Primary buttons use a solid **Accent Gold (#D4AF37)** background with dark green text. Secondary buttons are \"Ghost\" style: 1px Sepia borders with Off-White text. All buttons have a high horizontal padding (32px) for a luxurious look.\n- **Input Fields:** Minimalist. Only a bottom border (1px) in Sepia. Focus state introduces a subtle Gold glow under the border.\n- **Cards:** No background fill; defined by 1px Sepia borders at low opacity. Product images should have high-end \"hero\" lighting.\n- **Chips/Labels:** Small, all-caps **Inter** text. Use them for \"Single Origin,\" \"Limited Edition,\" or \"Legacy Harvest\" tags.\n- **Dividers:** Use very thin (0.5px) Sepia lines. For special sections, use a decorative \"diamond\" or \"leaf\" glyph in the center of the divider to reinforce the 1973 legacy.\n- **Lists:** Clean, with generous vertical padding (24px) between items to keep the UI feeling airy and premium.",
+      "theme": {
+        "colorMode": "DARK",
+        "font": "PLAYFAIR_DISPLAY",
+        "roundness": "ROUND_FOUR",
+        "customColor": "#0b1c15",
+        "headlineFont": "PLAYFAIR_DISPLAY",
+        "bodyFont": "INTER",
+        "labelFont": "INTER",
+        "namedColors": {
+          "tertiary": "#e1c299",
+          "inverse_on_surface": "#2f3131",
+          "background": "#121414",
+          "secondary_fixed": "#ffe088",
+          "outline": "#8c928e",
+          "on_tertiary": "#402d10",
+          "surface_container_highest": "#333535",
+          "on_primary": "#23342c",
+          "on_background": "#e2e2e2",
+          "on_error": "#690005",
+          "on_primary_fixed": "#0e1f18",
+          "primary": "#b7cbc0",
+          "primary_container": "#0b1c15",
+          "inverse_surface": "#e2e2e2",
+          "surface_tint": "#b7cbc0",
+          "on_tertiary_fixed": "#281801",
+          "primary_fixed": "#d3e7db",
+          "on_secondary_fixed": "#241a00",
+          "on_error_container": "#ffdad6",
+          "outline_variant": "#424845",
+          "surface_variant": "#333535",
+          "surface_dim": "#121414",
+          "on_secondary": "#3c2f00",
+          "on_secondary_container": "#342800",
+          "secondary_container": "#af8d11",
+          "secondary": "#e9c349",
+          "on_primary_fixed_variant": "#394b42",
+          "tertiary_fixed_dim": "#e1c299",
+          "on_surface": "#e2e2e2",
+          "surface_container_low": "#1a1c1c",
+          "surface_container": "#1e2020",
+          "error_container": "#93000a",
+          "on_tertiary_container": "#987e59",
+          "on_secondary_fixed_variant": "#574500",
+          "tertiary_fixed": "#feddb3",
+          "error": "#ffb4ab",
+          "surface_container_lowest": "#0c0f0f",
+          "on_primary_container": "#73867c",
+          "on_surface_variant": "#c2c8c3",
+          "surface": "#121414",
+          "surface_bright": "#38393a",
+          "tertiary_container": "#251600",
+          "on_tertiary_fixed_variant": "#584324",
+          "secondary_fixed_dim": "#e9c349",
+          "primary_fixed_dim": "#b7cbc0",
+          "inverse_primary": "#506259",
+          "surface_container_high": "#282a2b"
+        },
+        "designMd": "---\nname: Heritage Resurgence\ncolors:\n  surface: '#121414'\n  surface-dim: '#121414'\n  surface-bright: '#38393a'\n  surface-container-lowest: '#0c0f0f'\n  surface-container-low: '#1a1c1c'\n  surface-container: '#1e2020'\n  surface-container-high: '#282a2b'\n  surface-container-highest: '#333535'\n  on-surface: '#e2e2e2'\n  on-surface-variant: '#c2c8c3'\n  inverse-surface: '#e2e2e2'\n  inverse-on-surface: '#2f3131'\n  outline: '#8c928e'\n  outline-variant: '#424845'\n  surface-tint: '#b7cbc0'\n  primary: '#b7cbc0'\n  on-primary: '#23342c'\n  primary-container: '#0b1c15'\n  on-primary-container: '#73867c'\n  inverse-primary: '#506259'\n  secondary: '#e9c349'\n  on-secondary: '#3c2f00'\n  secondary-container: '#af8d11'\n  on-secondary-container: '#342800'\n  tertiary: '#e1c299'\n  on-tertiary: '#402d10'\n  tertiary-container: '#251600'\n  on-tertiary-container: '#987e59'\n  error: '#ffb4ab'\n  on-error: '#690005'\n  error-container: '#93000a'\n  on-error-container: '#ffdad6'\n  primary-fixed: '#d3e7db'\n  primary-fixed-dim: '#b7cbc0'\n  on-primary-fixed: '#0e1f18'\n  on-primary-fixed-variant: '#394b42'\n  secondary-fixed: '#ffe088'\n  secondary-fixed-dim: '#e9c349'\n  on-secondary-fixed: '#241a00'\n  on-secondary-fixed-variant: '#574500'\n  tertiary-fixed: '#feddb3'\n  tertiary-fixed-dim: '#e1c299'\n  on-tertiary-fixed: '#281801'\n  on-tertiary-fixed-variant: '#584324'\n  background: '#121414'\n  on-background: '#e2e2e2'\n  surface-variant: '#333535'\ntypography:\n  display-lg:\n    fontFamily: Playfair Display\n    fontSize: 64px\n    fontWeight: '700'\n    lineHeight: '1.1'\n    letterSpacing: -0.02em\n  display-lg-mobile:\n    fontFamily: Playfair Display\n    fontSize: 40px\n    fontWeight: '700'\n    lineHeight: '1.2'\n  headline-md:\n    fontFamily: Playfair Display\n    fontSize: 32px\n    fontWeight: '600'\n    lineHeight: '1.3'\n  title-lg:\n    fontFamily: Playfair Display\n    fontSize: 24px\n    fontWeight: '500'\n    lineHeight: '1.4'\n  body-lg:\n    fontFamily: Inter\n    fontSize: 18px\n    fontWeight: '400'\n    lineHeight: '1.6'\n  body-md:\n    fontFamily: Inter\n    fontSize: 16px\n    fontWeight: '400'\n    lineHeight: '1.6'\n  label-sm:\n    fontFamily: Inter\n    fontSize: 12px\n    fontWeight: '600'\n    lineHeight: '1.0'\n    letterSpacing: 0.1em\nrounded:\n  sm: 0.125rem\n  DEFAULT: 0.25rem\n  md: 0.375rem\n  lg: 0.5rem\n  xl: 0.75rem\n  full: 9999px\nspacing:\n  unit: 8px\n  container-max: 1280px\n  gutter: 24px\n  margin-mobile: 20px\n  margin-desktop: 64px\n---\n\n## Brand & Style\nThis design system visualizes the intersection of a 1973 legacy and a contemporary premium experience. The personality is \"Quiet Authority\"—it is grounded, earthy, and deeply rooted in tea culture, yet feels mathematically precise and modern. \n\nThe aesthetic blends **Modern Minimalism** with **Vintage Editorial** elements. It utilizes heavy whitespace to create a \"soothing\" atmosphere, while structural elements like sophisticated thin borders and subtle glows provide a high-end digital layer over the organic color palette. The UI should evoke the feeling of an exclusive tea estate at dusk—private, warm, and prestigious.\n\n## Colors\nThe palette is dominated by the deep \"Forest Green\" background to establish an immediate sense of grounded premium quality. \n\n- **Primary (#0B1C15):** Used for all primary surfaces and backgrounds. It should feel infinite and deep.\n- **Accent Gold (#D4AF37):** Used sparingly for critical CTAs, luxury accents, and \"glow\" effects. \n- **Sepia (#D2B48C):** Used for secondary typography and decorative borders to provide a \"weathered\" legacy feel.\n- **Off-White (#F5F5F5):** Reserved for primary body text and high-contrast headlines to ensure modern legibility.\n\n## Typography\nThe typography system uses a high-contrast pairing to reflect the brand's timeline. **Playfair Display** carries the 1973 legacy, used for storytelling and hero sections. **Inter** provides the functional, modern utility required for a premium e-commerce or informational experience.\n\n- Use **Sepia (#D2B48C)** for `label-sm` to create a vintage document feel.\n- Use **Off-White (#F5F5F5)** for all body copy to maintain high readability against the dark green background.\n- Headline tracking should be slightly tight for a modern editorial look, while labels should be widely tracked for an \"archival\" feel.\n\n## Layout & Spacing\nThe layout follows a **Fixed Grid** philosophy on desktop to maintain a boutique, controlled feel. Content should never feel \"stretched.\"\n\n- **Grid:** 12-column system with generous 24px gutters.\n- **Margins:** Desktop margins are intentionally large (64px+) to enforce whitespace and \"breathing room.\"\n- **Rhythm:** Use an 8px base unit. Component spacing should lean towards larger values (e.g., 32px, 48px, 64px) to avoid visual clutter and maintain the \"soothing\" brand promise.\n\n## Elevation & Depth\nIn this dark, earthy environment, depth is not created with traditional shadows, but with **Light and Line**:\n\n1.  **Low-Contrast Outlines:** Use 1px borders in **Sepia (#D2B48C)** at 20-30% opacity to define containers.\n2.  **Subtle Glows:** For primary elements or high-end products, use a soft, ultra-diffused outer glow using the **Accent Gold (#D4AF37)** color (Blur: 40px, Opacity: 15%).\n3.  **Tonal Layering:** Elevate secondary surfaces by using a slightly lighter green than the background (e.g., #12261E) rather than using drop shadows.\n\n## Shapes\nThe shape language is **Soft (0.25rem)**. This design system avoids aggressive roundness or sharp industrial corners. The slight radius feels human and organic, like the edge of a tea leaf or a ceramic cup, while maintaining the structural integrity of a premium, established brand.\n\n## Components\n\n- **Buttons:** Primary buttons use a solid **Accent Gold (#D4AF37)** background with dark green text. Secondary buttons are \"Ghost\" style: 1px Sepia borders with Off-White text. All buttons have a high horizontal padding (32px) for a luxurious look.\n- **Input Fields:** Minimalist. Only a bottom border (1px) in Sepia. Focus state introduces a subtle Gold glow under the border.\n- **Cards:** No background fill; defined by 1px Sepia borders at low opacity. Product images should have high-end \"hero\" lighting.\n- **Chips/Labels:** Small, all-caps **Inter** text. Use them for \"Single Origin,\" \"Limited Edition,\" or \"Legacy Harvest\" tags.\n- **Dividers:** Use very thin (0.5px) Sepia lines. For special sections, use a decorative \"diamond\" or \"leaf\" glyph in the center of the divider to reinforce the 1973 legacy.\n- **Lists:** Clean, with generous vertical padding (24px) between items to keep the UI feeling airy and premium.",
+        "colorVariant": "FIDELITY",
+        "overridePrimaryColor": "#0b1c15",
+        "overrideSecondaryColor": "#d4af37",
+        "overrideTertiaryColor": "#d2b48c",
+        "overrideNeutralColor": "#f5f5f5",
+        "spacingScale": 2,
+        "typography": {
+          "headline-md": {
+            "fontFamily": "Playfair Display",
+            "fontSize": "32px",
+            "fontWeight": "600",
+            "lineHeight": "1.3"
+          },
+          "label-sm": {
+            "fontFamily": "Inter",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "lineHeight": "1.0",
+            "letterSpacing": "0.1em"
+          },
+          "display-lg-mobile": {
+            "fontFamily": "Playfair Display",
+            "fontSize": "40px",
+            "fontWeight": "700",
+            "lineHeight": "1.2"
+          },
+          "title-lg": {
+            "fontFamily": "Playfair Display",
+            "fontSize": "24px",
+            "fontWeight": "500",
+            "lineHeight": "1.4"
+          },
+          "display-lg": {
+            "fontFamily": "Playfair Display",
+            "fontSize": "64px",
+            "fontWeight": "700",
+            "lineHeight": "1.1",
+            "letterSpacing": "-0.02em"
+          },
+          "body-lg": {
+            "fontFamily": "Inter",
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "lineHeight": "1.6"
+          },
+          "body-md": {
+            "fontFamily": "Inter",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "1.6"
+          }
+        },
+        "spacing": {
+          "margin-mobile": "20px",
+          "container-max": "1280px",
+          "gutter": "24px",
+          "margin-desktop": "64px",
+          "unit": "8px"
+        },
+        "headlineFontFamily": "Playfair Display",
+        "bodyFontFamily": "Inter",
+        "labelFontFamily": "Inter"
+      }
+    },
+    "version": "1"
+  }
+}

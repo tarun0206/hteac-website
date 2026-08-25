@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Hindustan Tea Co.</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;family=Playfair+Display:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-background": "#d1e8df",
+                        "surface": "#041712",
+                        "on-error-container": "#ffdad6",
+                        "tertiary-container": "#aecfaf",
+                        "inverse-on-surface": "#21342e",
+                        "surface-container-low": "#0b1f1a",
+                        "on-primary-fixed": "#251a00",
+                        "error-container": "#93000a",
+                        "surface-tint": "#eac165",
+                        "on-surface-muted": "#d1c5b2",
+                        "primary": "#ffdf9c",
+                        "on-error": "#690005",
+                        "surface-container-highest": "#253933",
+                        "primary-fixed-dim": "#eac165",
+                        "surface-container-high": "#1a2e28",
+                        "on-secondary": "#1a3620",
+                        "on-primary": "#3f2e00",
+                        "on-tertiary-container": "#3c5940",
+                        "error": "#ffb4ab",
+                        "secondary": "#aecfaf",
+                        "outline-gold": "#9a8f7e",
+                        "on-tertiary-fixed": "#04210c",
+                        "on-secondary-container": "#a3c4a5",
+                        "tertiary-fixed-dim": "#aecfaf",
+                        "on-tertiary-fixed-variant": "#314d35",
+                        "on-surface": "#d1e8df",
+                        "secondary-fixed": "#c9ebca",
+                        "on-secondary-fixed-variant": "#304d35",
+                        "inverse-primary": "#785a00",
+                        "surface-deep": "#041712",
+                        "tertiary-fixed": "#c9ebca",
+                        "on-primary-fixed-variant": "#5b4300",
+                        "primary-container": "#eac165",
+                        "surface-bright": "#293d37",
+                        "surface-dim": "#041712",
+                        "outline-variant": "#4e4637",
+                        "on-tertiary": "#1a3620",
+                        "surface-variant": "#253933",
+                        "primary-fixed": "#ffdf9c",
+                        "tertiary": "#caebca",
+                        "secondary-container": "#355239",
+                        "inverse-surface": "#d1e8df",
+                        "surface-container-lowest": "#00110d",
+                        "outline": "#9a8f7e",
+                        "background": "#041712",
+                        "surface-container": "#0f231e",
+                        "on-primary-container": "#694e00",
+                        "on-surface-variant": "#d1c5b2",
+                        "on-secondary-fixed": "#04210c",
+                        "secondary-fixed-dim": "#aecfaf"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-mobile": "24px",
+                        "gutter": "32px",
+                        "margin-desktop": "80px",
+                        "container-max": "1440px",
+                        "section-gap": "160px",
+                        "unit": "8px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Playfair Display"],
+                        "label-caps": ["Inter"],
+                        "body-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "caption": ["Inter"],
+                        "headline-lg": ["Playfair Display"],
+                        "display-lg": ["Playfair Display"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["32px", { "lineHeight": "1.3", "letterSpacing": "0.1em", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "1.0", "letterSpacing": "0.3em", "fontWeight": "500" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "1.8", "letterSpacing": "0.01em", "fontWeight": "300" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "1.2", "fontWeight": "400" }],
+                        "caption": ["14px", { "lineHeight": "1.4", "fontWeight": "400" }],
+                        "headline-lg": ["48px", { "lineHeight": "1.2", "fontWeight": "400" }],
+                        "display-lg": ["64px", { "lineHeight": "1.1", "letterSpacing": "0.05em", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .atmospheric-overlay {
+            background: radial-gradient(circle at 50% 50%, rgba(10, 31, 26, 0.4) 0%, rgba(4, 23, 18, 0.9) 100%);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen flex flex-col antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- Atmospheric Background (Placeholder for Screen 5 video request) -->
+<div class="fixed inset-0 w-full h-full -z-20">
+<div class="absolute inset-0 bg-cover bg-center bg-no-repeat w-full h-full opacity-60" data-alt="Cinematic macro shot of dark green tea leaves slowly steeping in water, mist gently rising off the surface. The lighting is moody and atmospheric, focusing deeply on the textures of the leaves and the rich amber hue of the water. The aesthetic is extremely high-end, calm, and evocative of a slow, ancient ritual. Deep shadows and a soft, glowing light source from above. The color palette emphasizes deep forest greens, subtle ambers, and profound blacks." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDzs-bRMD1KrJcs-xJP11q7ZLzNUVjgie3ZVnosuIYMI3wmzI2bZH49LNwr3mqC5Y64X0etVl99ottHcvVsSHWoU49bfIOLmjyy8_FE-VzsL0ho-cEh47lL43c4ddpFq_GOTeb7Uge4NZUd6SIrUWAJ7q86kdGh7-yFANlOKZjKdCdaxYwUsv8Sy34Aj3QshkX5MzfE5kx7WIk0KEHh7hl_e3jnBdJCe0m41VqKjL2hWQafJwtpX1i7-g')"></div>
+</div>
+<!-- Heavy Tint Overlay -->
+<div class="fixed inset-0 w-full h-full bg-[#071B16]/80 -z-10 atmospheric-overlay mix-blend-multiply"></div>
+<!-- Secondary Glow for depth -->
+<div class="fixed inset-0 w-full h-full -z-10 bg-[radial-gradient(ellipse_at_top_center,rgba(41,61,55,0.3)_0%,transparent_70%)]"></div>
+<!-- Navigation Shell - TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-transparent flex justify-between items-center px-margin-mobile h-20 border-b border-outline-variant/40">
+<div class="opacity-80 transition-opacity flex items-center justify-center w-10 h-10 hover:text-primary-fixed-dim duration-300">
+<span class="material-symbols-outlined text-primary dark:text-primary-fixed">menu</span>
+</div>
+<div class="text-center">
+<h1 class="font-display-lg text-headline-lg-mobile tracking-widest text-primary">AMAYA TEA</h1>
+</div>
+<div class="flex items-center">
+<span class="font-label-caps text-label-caps text-primary dark:text-primary-fixed">EST. 1973</span>
+</div>
+</header>
+<!-- Main Canvas -->
+<main class="flex-grow flex flex-col items-center justify-center px-margin-mobile pt-32 pb-40 z-10 w-full max-w-container-max mx-auto relative">
+<div class="flex flex-col items-center text-center space-y-12 max-w-lg w-full">
+<!-- Heritage Marker -->
+<div class="flex items-center gap-4 w-full justify-center">
+<div class="h-px bg-primary/40 w-12"></div>
+<span class="font-label-caps text-label-caps text-primary tracking-widest">ESTABLISHED 1973</span>
+<div class="h-px bg-primary/40 w-12"></div>
+</div>
+<!-- Hero Typography -->
+<div class="space-y-6">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-primary drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
+                    A NEW CHAPTER <br/>IS STEEPING.
+                </h2>
+<p class="font-body-lg text-body-lg text-on-surface-muted max-w-sm mx-auto opacity-90 leading-relaxed">
+                    A new expression of one of India's most enduring rituals is almost here.
+                </p>
+</div>
+<!-- Minimalist Editorial Signup -->
+<div class="w-full pt-8 space-y-8">
+<form class="flex flex-col gap-6 w-full relative">
+<div class="relative group">
+<input class="w-full bg-transparent border-0 border-b border-outline-variant/60 rounded-none px-0 py-4 font-label-caps text-label-caps text-primary placeholder-on-surface-muted/60 focus:ring-0 focus:border-primary transition-colors duration-500 peer" id="email" placeholder="YOUR EMAIL ADDRESS" type="email"/>
+</div>
+<button class="group flex items-center justify-center gap-2 py-4 text-primary font-label-caps text-label-caps tracking-widest w-full hover:text-primary-fixed-dim transition-all duration-300" type="button">
+<span>REQUEST AN INVITATION</span>
+<span class="material-symbols-outlined text-[16px] transform group-hover:translate-x-1 transition-transform duration-300">arrow_right_alt</span>
+</button>
+</form>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-surface-deep border-t border-outline-variant/40 flex flex-col items-center gap-unit px-margin-mobile py-20 text-center relative z-10">
+<div class="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-12">
+<a class="font-label-caps text-label-caps text-on-surface-muted hover:text-primary transition-colors opacity-100" href="#">JOURNAL</a>
+<a class="font-label-caps text-label-caps text-on-surface-muted hover:text-primary transition-colors opacity-100" href="#">PROVENANCE</a>
+<a class="font-label-caps text-label-caps text-on-surface-muted hover:text-primary transition-colors opacity-100" href="#">PRIVACY</a>
+<a class="font-label-caps text-label-caps text-on-surface-muted hover:text-primary transition-colors opacity-100" href="#">TERMS</a>
+</div>
+<p class="font-label-caps text-label-caps text-on-surface-variant/50">
+            © 2024 AMAYA HERITAGE TEA. ALL RIGHTS RESERVED.
+        </p>
+</footer>
+</body></html>

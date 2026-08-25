@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Hindustan Tea Co. - A New Chapter</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "primary-fixed-dim": "#eac165",
+                      "surface-container": "#0f231e",
+                      "surface-container-highest": "#253933",
+                      "outline": "#9a8f7e",
+                      "surface-bright": "#293d37",
+                      "on-error": "#690005",
+                      "on-secondary": "#1d352c",
+                      "tertiary": "#aecfaf",
+                      "surface-variant": "#253933",
+                      "on-surface-variant": "#d1c5b2",
+                      "background": "#041712",
+                      "secondary-fixed-dim": "#b2cdc0",
+                      "on-primary-fixed": "#251a00",
+                      "on-secondary-container": "#a0bbaf",
+                      "outline-variant": "#4d4637",
+                      "surface-dim": "#041712",
+                      "surface-container-high": "#1a2e28",
+                      "on-primary-container": "#4f3a00",
+                      "surface": "#041712",
+                      "secondary": "#b2cdc0",
+                      "on-tertiary": "#1a3620",
+                      "on-tertiary-fixed": "#04210c",
+                      "inverse-primary": "#785a00",
+                      "tertiary-fixed": "#c9ebca",
+                      "tertiary-container": "#90b092",
+                      "surface-container-lowest": "#00110d",
+                      "error-container": "#93000a",
+                      "primary-fixed": "#ffdf9c",
+                      "error": "#ffb4ab",
+                      "surface-tint": "#eac165",
+                      "on-tertiary-fixed-variant": "#304d35",
+                      "secondary-container": "#344c42",
+                      "on-primary-fixed-variant": "#5b4300",
+                      "on-tertiary-container": "#27432c",
+                      "tertiary-fixed-dim": "#aecfaf",
+                      "primary": "#eac165",
+                      "on-error-container": "#ffdad6",
+                      "surface-container-low": "#0b1f1a",
+                      "on-secondary-fixed": "#072018",
+                      "on-secondary-fixed-variant": "#344c42",
+                      "primary-container": "#c9a34a",
+                      "on-background": "#d1e8df",
+                      "secondary-fixed": "#cde9dc",
+                      "on-surface": "#d1e8df",
+                      "on-primary": "#3f2e00",
+                      "inverse-surface": "#d1e8df",
+                      "inverse-on-surface": "#21342e"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "section-gap": "160px",
+                      "container-max": "1440px",
+                      "unit": "8px",
+                      "gutter": "32px",
+                      "margin-desktop": "80px",
+                      "margin-mobile": "24px"
+              },
+              "fontFamily": {
+                      "headline-lg-mobile": [
+                              "Playfair Display"
+                      ],
+                      "headline-lg": [
+                              "Playfair Display"
+                      ],
+                      "label-caps": [
+                              "Inter"
+                      ],
+                      "body-md": [
+                              "Inter"
+                      ],
+                      "caption": [
+                              "Inter"
+                      ],
+                      "headline-md": [
+                              "Playfair Display"
+                      ],
+                      "body-lg": [
+                              "Inter"
+                      ],
+                      "display-lg": [
+                              "Playfair Display"
+                      ]
+              },
+              "fontSize": {
+                      "headline-lg-mobile": [
+                              "32px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-lg": [
+                              "48px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "1.0",
+                                      "letterSpacing": "0.15em",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "caption": [
+                              "14px",
+                              {
+                                      "lineHeight": "1.4",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "32px",
+                              {
+                                      "lineHeight": "1.3",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "1.8",
+                                      "letterSpacing": "0.01em",
+                                      "fontWeight": "300"
+                              }
+                      ],
+                      "display-lg": [
+                              "64px",
+                              {
+                                      "lineHeight": "1.1",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-300 { animation-delay: 0.3s; }
+        .delay-500 { animation-delay: 0.5s; }
+        .delay-700 { animation-delay: 0.7s; }
+        .delay-900 { animation-delay: 0.9s; }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .ambient-glow {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, rgba(45, 74, 50, 0.15) 0%, transparent 60%);
+            pointer-events: none;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body class="bg-[#071B16] text-on-surface min-h-screen flex flex-col font-body-md overflow-x-hidden antialiased relative">
+<!-- Background Video -->
+<div class="absolute inset-0 w-full h-full z-0 overflow-hidden">
+<video autoplay="" class="w-full h-full object-cover" loop="" muted="" playsinline="">
+<source src="https://www.pexels.com/download/video/33536339/" type="video/mp4"/>
+</video>
+<!-- Overlay to ensure text readability and brand aesthetic -->
+<div class="absolute inset-0 bg-[#071B16] opacity-60"></div>
+</div>
+<div class="ambient-glow z-0"></div>
+<!-- TopNavBar -->
+<header class="flex justify-between items-center w-full px-margin-desktop py-8 max-w-container-max mx-auto z-10 relative bg-transparent border-b border-outline-variant/30 fade-in-up delay-100">
+<div class="font-headline-md text-headline-md text-primary tracking-widest uppercase cursor-pointer opacity-90 hover:opacity-100 hover:text-primary transition-colors duration-500">
+            HINDUSTAN TEA CO.
+        </div>
+<div class="font-label-caps text-label-caps text-on-surface-variant cursor-pointer opacity-90 hover:opacity-100 hover:text-primary transition-colors duration-500 hidden md:block">
+            EST. 1973
+        </div>
+</header>
+<!-- Main Content -->
+<main class="flex-grow flex flex-col items-center justify-center relative w-full px-margin-desktop py-section-gap max-w-container-max mx-auto z-10">
+<div class="w-full max-w-4xl mx-auto flex flex-col items-center text-center relative">
+<div class="fade-in-up delay-300 mt-20 mb-8 flex flex-col items-center">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-[0.3em] mb-4">Established 1973</span>
+<div class="h-px w-12 bg-primary/40"></div>
+</div>
+<h1 class="font-display-lg text-display-lg text-inverse-surface mb-8 fade-in-up delay-500 w-full px-4" style="letter-spacing: 0.05em;">
+                A NEW CHAPTER IS STEEPING.
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mx-auto mb-16 fade-in-up delay-700">
+                A new expression of one of India's most enduring rituals is almost here.
+            </p>
+<form class="w-full max-w-md mx-auto fade-in-up delay-900 group relative">
+<label class="sr-only" for="email">Your email address</label>
+<input class="w-full bg-transparent border-0 border-b border-outline-variant/50 text-center font-label-caps text-label-caps text-inverse-surface placeholder:text-on-surface-variant/50 focus:ring-0 focus:border-primary transition-colors duration-500 pb-4 outline-none" id="email" name="email" placeholder="YOUR EMAIL ADDRESS" type="email"/>
+<button class="mt-8 font-label-caps text-label-caps text-primary hover:text-primary-fixed-dim transition-all duration-300 group flex items-center justify-center w-full mx-auto" type="submit">
+<span class="mr-2">REQUEST AN INVITATION</span>
+<span class="material-symbols-outlined text-sm transition-transform duration-300 group-hover:translate-x-1" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</form>
+<div class="mt-32 fade-in-up delay-900 font-caption text-caption text-on-surface-variant/60 italic">
+                For those who appreciate a slower pour.
+            </div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full px-margin-desktop py-20 border-t border-outline-variant/20 bg-transparent flex flex-col md:flex-row justify-between items-center z-10 relative mt-auto fade-in-up delay-900">
+<div class="font-headline-md text-headline-md text-primary mb-8 md:mb-0 opacity-80">
+            HINDUSTAN TEA CO.
+        </div>
+<div class="font-caption text-caption text-on-surface-variant/70 mb-8 md:mb-0 hidden md:block">
+            India's ritual. Reimagined.
+        </div>
+<div class="flex gap-8 font-label-caps text-label-caps">
+<a class="text-on-surface-variant hover:text-primary-fixed-dim transition-all duration-700 text-decoration-none" href="#">INSTAGRAM</a>
+<a class="text-on-surface-variant hover:text-primary-fixed-dim transition-all duration-700 text-decoration-none" href="#">JOURNAL</a>
+<a class="text-on-surface-variant hover:text-primary-fixed-dim transition-all duration-700 text-decoration-none" href="#">CONTACT</a>
+</div>
+<div class="font-caption text-caption text-on-surface-variant mt-8 md:mt-0 w-full md:w-auto text-center md:text-left opacity-50 md:hidden">
+            © 2024 HINDUSTAN TEA CO.
+        </div>
+</footer>
+</body></html>

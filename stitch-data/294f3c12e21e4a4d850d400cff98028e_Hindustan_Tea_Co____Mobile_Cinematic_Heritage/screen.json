@@ -1,0 +1,297 @@
+{
+  "screenshot": {
+    "name": "projects/11851651268370158882/screens/294f3c12e21e4a4d850d400cff98028e/fileEntries/screenshot",
+    "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1X8CzJDsUa7i_cbk4US9uv2QKLFtuGmad2C1H3FeD1dHtr1ICdv4PBVmXsb_VRXa6ynuKXjM1_pPL2NB3NRlE8wOtmvgF91WZtdcWz0sSHrmiDVGciNCUimN-QttoxT_dnxdsJRVhSyNGtAHhzZkQpal2AYsTA_IInkFwgjbIDXOfnod2y7O8ioT5eJebLpwUzMGpr1tHRcUsIlBywyglXXQK9i13Gd5e15zAdAAQObShb74zk6MdRLU4a6"
+  },
+  "htmlCode": {
+    "name": "projects/11851651268370158882/screens/294f3c12e21e4a4d850d400cff98028e/fileEntries/html",
+    "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzAwMDY1OWUxNGJjZDFhNmQwNTRjZmM1N2UxMWM3MGMxEgsSBxCDtuax3ggYAZIBJAoKcHJvamVjdF9pZBIWQhQxMTg1MTY1MTI2ODM3MDE1ODg4Mg&filename=&opi=89354086",
+    "mimeType": "text/html"
+  },
+  "id": "294f3c12e21e4a4d850d400cff98028e",
+  "generatedBy": "figaro_agent",
+  "width": "780",
+  "height": "1768",
+  "title": "Hindustan Tea Co. - Mobile Cinematic Heritage",
+  "prompt": "A high-fidelity mobile version of the Hindustan Tea Co. cinematic landing page. \n\nLayout Requirements:\n- Full-screen background using the video from {{DATA:SCREEN:SCREEN_3}} (https://www.pexels.com/download/video/33536339/) with a deep forest green (#071B16) overlay for legibility.\n- Top: Minimal brand header with 'HINDUSTAN TEA CO.' and 'EST. 1973'.\n- Center: Large, elegant serif headline 'A NEW CHAPTER IS STEEPING.' followed by the supporting statement 'A new expression of one of India's most enduring rituals is almost here.'\n- Below Copy: Small heritage detail 'ESTABLISHED 1973' with a thin gold line.\n- Interaction: Minimalist horizontal line for email input 'YOUR EMAIL ADDRESS' and a text-based CTA 'REQUEST AN INVITATION →'.\n- Bottom: Understated footer with 'INSTAGRAM', 'JOURNAL', 'CONTACT' and copyright.\n\nAesthetic: Ultra-premium, editorial, cinematic, and understated. Use generous whitespace and high-contrast typography. Preserve all copy and visual elements from the desktop version.",
+  "name": "projects/11851651268370158882/screens/294f3c12e21e4a4d850d400cff98028e",
+  "theme": {
+    "colorMode": "DARK",
+    "font": "PLAYFAIR_DISPLAY",
+    "customColor": "#eac165",
+    "headlineFont": "PLAYFAIR_DISPLAY",
+    "bodyFont": "INTER",
+    "labelFont": "INTER",
+    "namedColors": {
+      "secondary_fixed": "#c9ebca",
+      "on_error": "#690005",
+      "tertiary": "#caebca",
+      "on_secondary_container": "#a3c4a5",
+      "tertiary_fixed_dim": "#aecfaf",
+      "surface_container_highest": "#253933",
+      "surface": "#041712",
+      "surface_container": "#0f231e",
+      "on_tertiary_container": "#3c5940",
+      "outline-gold": "#9a8f7e",
+      "on_secondary_fixed": "#04210c",
+      "on_error_container": "#ffdad6",
+      "primary_fixed_dim": "#eac165",
+      "surface_container_low": "#0b1f1a",
+      "secondary": "#aecfaf",
+      "on-surface-muted": "#d1c5b2",
+      "error_container": "#93000a",
+      "surface_container_high": "#1a2e28",
+      "surface_container_lowest": "#00110d",
+      "on_surface_variant": "#d1c5b2",
+      "on_secondary": "#1a3620",
+      "primary": "#ffdf9c",
+      "surface-bright": "#293d37",
+      "on_background": "#d1e8df",
+      "error": "#ffb4ab",
+      "on_tertiary": "#1a3620",
+      "outline": "#9a8f7e",
+      "inverse_primary": "#785a00",
+      "on_secondary_fixed_variant": "#304d35",
+      "on_primary_fixed": "#251a00",
+      "inverse_surface": "#d1e8df",
+      "surface_variant": "#253933",
+      "outline_variant": "#4e4637",
+      "background": "#041712",
+      "on_primary": "#3f2e00",
+      "secondary_fixed_dim": "#aecfaf",
+      "inverse_on_surface": "#21342e",
+      "on_primary_fixed_variant": "#5b4300",
+      "on_primary_container": "#694e00",
+      "on_tertiary_fixed": "#04210c",
+      "primary_container": "#eac165",
+      "tertiary_fixed": "#c9ebca",
+      "tertiary_container": "#aecfaf",
+      "surface_dim": "#041712",
+      "on_surface": "#d1e8df",
+      "surface_tint": "#eac165",
+      "surface_bright": "#293d37",
+      "on_tertiary_fixed_variant": "#314d35",
+      "surface-deep": "#041712",
+      "secondary_container": "#355239",
+      "primary_fixed": "#ffdf9c"
+    },
+    "colorVariant": "FIDELITY",
+    "overridePrimaryColor": "#eac165",
+    "overrideSecondaryColor": "#2d4a32",
+    "overrideTertiaryColor": "#aecfaf",
+    "overrideNeutralColor": "#071b16",
+    "spacingScale": 2,
+    "typography": {
+      "headline-md": {
+        "fontFamily": "Playfair Display",
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "lineHeight": "1.3",
+        "letterSpacing": "0.1em"
+      },
+      "body-md": {
+        "fontFamily": "Inter",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "1.6"
+      },
+      "body-lg": {
+        "fontFamily": "Inter",
+        "fontSize": "18px",
+        "fontWeight": "300",
+        "lineHeight": "1.8",
+        "letterSpacing": "0.01em"
+      },
+      "caption": {
+        "fontFamily": "Inter",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "1.4"
+      },
+      "headline-lg": {
+        "fontFamily": "Playfair Display",
+        "fontSize": "48px",
+        "fontWeight": "400",
+        "lineHeight": "1.2"
+      },
+      "headline-lg-mobile": {
+        "fontFamily": "Playfair Display",
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "lineHeight": "1.2"
+      },
+      "display-lg": {
+        "fontFamily": "Playfair Display",
+        "fontSize": "64px",
+        "fontWeight": "400",
+        "lineHeight": "1.1",
+        "letterSpacing": "0.05em"
+      },
+      "label-caps": {
+        "fontFamily": "Inter",
+        "fontSize": "12px",
+        "fontWeight": "500",
+        "lineHeight": "1.0",
+        "letterSpacing": "0.3em"
+      }
+    },
+    "spacing": {
+      "gutter": "32px",
+      "container-max": "1440px",
+      "margin-mobile": "24px",
+      "unit": "8px",
+      "margin-desktop": "80px",
+      "section-gap": "160px"
+    },
+    "headlineFontFamily": "Playfair Display",
+    "bodyFontFamily": "Inter",
+    "labelFontFamily": "Inter"
+  },
+  "deviceType": "MOBILE",
+  "screenType": "DESIGN",
+  "screenMetadata": {
+    "agentType": "PRO_AGENT",
+    "status": "COMPLETE"
+  },
+  "designSystem": {
+    "name": "assets/4dede1be3867421b803b76fc1b7ee7e9",
+    "designSystem": {
+      "displayName": "Hindustan Tea Co.",
+      "styleGuidelines": "## Brand & Style\n\nThe brand identity is an intersection of historical Indian tea ritual and modern luxury. It evokes a sense of \"slow pour\" philosophy—intentional, atmospheric, and deeply rooted in tradition while maintaining a contemporary, editorial edge.\n\nThe design style is **Atmospheric Minimalism**. It relies on high-quality cinematic backgrounds, expansive whitespace (the \"breath\" between elements), and sophisticated typography. The aesthetic uses subtle \"Ambient Glows\" and translucent overlays to create depth without relying on traditional skeuomorphic shadows. The emotional response should be one of calm, exclusivity, and timelessness.\n\n## Layout & Spacing\n\nThe layout follows a **Fixed-Width Centered Grid** approach on desktop, with generous vertical breathing room defined by a `section-gap` of 160px.\n\n- **Margins:** Desktop utilizes 80px side margins, while mobile scales down to 24px.\n- **Alignment:** Primary brand messaging is center-aligned to create a focused, symmetrical focal point. Secondary information (headers/footers) uses a justified spread to frame the content.\n- **Rhythm:** Spacing follows an 8px base unit. Vertical rhythm is intentionally loose to reinforce the \"slower\" brand tempo.\n\n## Elevation & Depth\n\nDepth is conveyed through **Tonal Layering and Light Play** rather than physical shadows.\n\n1.  **The Base:** A deep neutral background (Surface-Deep).\n2.  **The Atmosphere:** A \"radial-gradient\" ambient glow in the secondary green tone, placed behind primary content to create soft focus.\n3.  **The Overlay:** Semi-transparent dark overlays (60% opacity) used over video/image content to ensure typography remains the focal point.\n4.  **The Accents:** Hairline borders (1px) in `outline-variant` colors are used sparingly to define headers and footers without creating heavy visual boxes.\n\n## Components\n\n- **Buttons:** Text-based with all-caps typography. They do not use solid background fills; instead, they rely on hover states that shift color (e.g., Primary Gold to a lighter Gold tint) and subtle icon animations (e.g., arrow-slide).\n- **Input Fields:** Minimalist \"border-bottom\" style. No background fill. Placeholder text uses a muted on-surface variant. Focus states are indicated by the border color shifting to Primary Gold.\n- **Navigation:** Transparent backgrounds with a single fine-line border at the bottom. Typography is high-tracking `label-caps`.\n- **Dividers:** 1px height, using the Primary color at 40% opacity, usually at narrow widths (e.g., 48px) to serve as a visual \"beat\" rather than a full structural break.\n- **Cards:** If used, they should be defined by `surface-bright` backgrounds with no shadows, or simply by the spacing between their internal content.",
+      "theme": {
+        "colorMode": "DARK",
+        "font": "PLAYFAIR_DISPLAY",
+        "customColor": "#eac165",
+        "headlineFont": "PLAYFAIR_DISPLAY",
+        "bodyFont": "INTER",
+        "labelFont": "INTER",
+        "namedColors": {
+          "tertiary_fixed_dim": "#aecfaf",
+          "secondary_fixed": "#c9ebca",
+          "on_primary_fixed_variant": "#5b4300",
+          "on_error_container": "#ffdad6",
+          "on_secondary_fixed": "#04210c",
+          "on_secondary_fixed_variant": "#304d35",
+          "primary_container": "#eac165",
+          "on_tertiary_fixed": "#04210c",
+          "surface-deep": "#041712",
+          "on_background": "#d1e8df",
+          "error_container": "#93000a",
+          "surface_dim": "#041712",
+          "surface_tint": "#eac165",
+          "tertiary": "#caebca",
+          "on_error": "#690005",
+          "surface_container_highest": "#253933",
+          "on_surface_variant": "#d1c5b2",
+          "on_primary_fixed": "#251a00",
+          "surface_container_low": "#0b1f1a",
+          "on_tertiary_container": "#3c5940",
+          "surface-bright": "#293d37",
+          "inverse_primary": "#785a00",
+          "on_primary": "#3f2e00",
+          "background": "#041712",
+          "surface_variant": "#253933",
+          "outline_variant": "#4e4637",
+          "outline-gold": "#9a8f7e",
+          "inverse_surface": "#d1e8df",
+          "surface": "#041712",
+          "on_secondary_container": "#a3c4a5",
+          "secondary_fixed_dim": "#aecfaf",
+          "on-surface-muted": "#d1c5b2",
+          "inverse_on_surface": "#21342e",
+          "on_tertiary_fixed_variant": "#314d35",
+          "tertiary_fixed": "#c9ebca",
+          "surface_container_lowest": "#00110d",
+          "on_primary_container": "#694e00",
+          "on_surface": "#d1e8df",
+          "error": "#ffb4ab",
+          "outline": "#9a8f7e",
+          "primary_fixed_dim": "#eac165",
+          "primary_fixed": "#ffdf9c",
+          "tertiary_container": "#aecfaf",
+          "primary": "#ffdf9c",
+          "on_secondary": "#1a3620",
+          "on_tertiary": "#1a3620",
+          "surface_container": "#0f231e",
+          "secondary": "#aecfaf",
+          "surface_container_high": "#1a2e28",
+          "surface_bright": "#293d37",
+          "secondary_container": "#355239"
+        },
+        "designMd": "---\nname: Heritage Steep\ncolors:\n  surface: '#041712'\n  surface-dim: '#041712'\n  surface-bright: '#293d37'\n  surface-container-lowest: '#00110d'\n  surface-container-low: '#0b1f1a'\n  surface-container: '#0f231e'\n  surface-container-high: '#1a2e28'\n  surface-container-highest: '#253933'\n  on-surface: '#d1e8df'\n  on-surface-variant: '#d1c5b2'\n  inverse-surface: '#d1e8df'\n  inverse-on-surface: '#21342e'\n  outline: '#9a8f7e'\n  outline-variant: '#4e4637'\n  surface-tint: '#eac165'\n  primary: '#ffdf9c'\n  on-primary: '#3f2e00'\n  primary-container: '#eac165'\n  on-primary-container: '#694e00'\n  inverse-primary: '#785a00'\n  secondary: '#aecfaf'\n  on-secondary: '#1a3620'\n  secondary-container: '#355239'\n  on-secondary-container: '#a3c4a5'\n  tertiary: '#caebca'\n  on-tertiary: '#1a3620'\n  tertiary-container: '#aecfaf'\n  on-tertiary-container: '#3c5940'\n  error: '#ffb4ab'\n  on-error: '#690005'\n  error-container: '#93000a'\n  on-error-container: '#ffdad6'\n  primary-fixed: '#ffdf9c'\n  primary-fixed-dim: '#eac165'\n  on-primary-fixed: '#251a00'\n  on-primary-fixed-variant: '#5b4300'\n  secondary-fixed: '#c9ebca'\n  secondary-fixed-dim: '#aecfaf'\n  on-secondary-fixed: '#04210c'\n  on-secondary-fixed-variant: '#304d35'\n  tertiary-fixed: '#c9ebca'\n  tertiary-fixed-dim: '#aecfaf'\n  on-tertiary-fixed: '#04210c'\n  on-tertiary-fixed-variant: '#314d35'\n  background: '#041712'\n  on-background: '#d1e8df'\n  surface-variant: '#253933'\n  surface-deep: '#041712'\n  on-surface-muted: '#d1c5b2'\n  outline-gold: '#9a8f7e'\ntypography:\n  display-lg:\n    fontFamily: Playfair Display\n    fontSize: 64px\n    fontWeight: '400'\n    lineHeight: '1.1'\n    letterSpacing: 0.05em\n  headline-lg:\n    fontFamily: Playfair Display\n    fontSize: 48px\n    fontWeight: '400'\n    lineHeight: '1.2'\n  headline-lg-mobile:\n    fontFamily: Playfair Display\n    fontSize: 32px\n    fontWeight: '400'\n    lineHeight: '1.2'\n  headline-md:\n    fontFamily: Playfair Display\n    fontSize: 32px\n    fontWeight: '400'\n    lineHeight: '1.3'\n    letterSpacing: 0.1em\n  body-lg:\n    fontFamily: Inter\n    fontSize: 18px\n    fontWeight: '300'\n    lineHeight: '1.8'\n    letterSpacing: 0.01em\n  body-md:\n    fontFamily: Inter\n    fontSize: 16px\n    fontWeight: '400'\n    lineHeight: '1.6'\n  label-caps:\n    fontFamily: Inter\n    fontSize: 12px\n    fontWeight: '500'\n    lineHeight: '1.0'\n    letterSpacing: 0.3em\n  caption:\n    fontFamily: Inter\n    fontSize: 14px\n    fontWeight: '400'\n    lineHeight: '1.4'\nspacing:\n  section-gap: 160px\n  container-max: 1440px\n  gutter: 32px\n  margin-desktop: 80px\n  margin-mobile: 24px\n  unit: 8px\n---\n\n## Brand & Style\n\nThe brand identity is an intersection of historical Indian tea ritual and modern luxury. It evokes a sense of \"slow pour\" philosophy—intentional, atmospheric, and deeply rooted in tradition while maintaining a contemporary, editorial edge.\n\nThe design style is **Atmospheric Minimalism**. It relies on high-quality cinematic backgrounds, expansive whitespace (the \"breath\" between elements), and sophisticated typography. The aesthetic uses subtle \"Ambient Glows\" and translucent overlays to create depth without relying on traditional skeuomorphic shadows. The emotional response should be one of calm, exclusivity, and timelessness.\n\n## Colors\n\nThe palette is anchored in deep, botanical greens and warm, metallic golds. \n\n- **Primary Gold (#eac165):** Used for key brand moments, call-to-actions, and decorative accents. It represents the \"glow\" of a high-quality steep.\n- **Deep Botanical Neutral (#071b16):** The core background color, providing a rich, \"ink-well\" depth that allows typography to shine.\n- **Secondary Sage (#2d4a32):** Used for ambient lighting effects and soft environmental gradients.\n\nColor application should prioritize high legibility via the `on-surface` tones while using low-opacity borders (`outline-variant/30`) to maintain a sense of lightness and transparency.\n\n## Typography\n\nThe typographic system contrasts the high-fashion elegance of *Playfair Display* with the utilitarian clarity of *Inter*.\n\n- **Headlines:** Use Playfair Display. Display sizes should utilize expanded letter spacing (0.05em to 0.1em) to feel airy and premium.\n- **Labels:** Use Inter in all-caps with aggressive tracking (0.3em). This is used for navigation, small headers, and technical details to evoke a \"catalog\" or \"journal\" feel.\n- **Body:** Use Inter with a light weight (300) for large-scale body text to maintain a modern, clean appearance against dark backgrounds.\n\n## Layout & Spacing\n\nThe layout follows a **Fixed-Width Centered Grid** approach on desktop, with generous vertical breathing room defined by a `section-gap` of 160px.\n\n- **Margins:** Desktop utilizes 80px side margins, while mobile scales down to 24px.\n- **Alignment:** Primary brand messaging is center-aligned to create a focused, symmetrical focal point. Secondary information (headers/footers) uses a justified spread to frame the content.\n- **Rhythm:** Spacing follows an 8px base unit. Vertical rhythm is intentionally loose to reinforce the \"slower\" brand tempo.\n\n## Elevation & Depth\n\nDepth is conveyed through **Tonal Layering and Light Play** rather than physical shadows.\n\n1.  **The Base:** A deep neutral background (Surface-Deep).\n2.  **The Atmosphere:** A \"radial-gradient\" ambient glow in the secondary green tone, placed behind primary content to create soft focus.\n3.  **The Overlay:** Semi-transparent dark overlays (60% opacity) used over video/image content to ensure typography remains the focal point.\n4.  **The Accents:** Hairline borders (1px) in `outline-variant` colors are used sparingly to define headers and footers without creating heavy visual boxes.\n\n## Shapes\n\nThe design utilizes **Sharp (0px)** roundedness for structural elements like input fields and containers. This reinforces a formal, architectural, and \"premium stationery\" aesthetic. \n\nSmall, decorative elements (like horizontal rules or button underscores) should remain perfectly square-edged. Icons should use the \"Material Symbols Outlined\" style with a thin stroke weight to match the fine-line character of the typography.\n\n## Components\n\n- **Buttons:** Text-based with all-caps typography. They do not use solid background fills; instead, they rely on hover states that shift color (e.g., Primary Gold to a lighter Gold tint) and subtle icon animations (e.g., arrow-slide).\n- **Input Fields:** Minimalist \"border-bottom\" style. No background fill. Placeholder text uses a muted on-surface variant. Focus states are indicated by the border color shifting to Primary Gold.\n- **Navigation:** Transparent backgrounds with a single fine-line border at the bottom. Typography is high-tracking `label-caps`.\n- **Dividers:** 1px height, using the Primary color at 40% opacity, usually at narrow widths (e.g., 48px) to serve as a visual \"beat\" rather than a full structural break.\n- **Cards:** If used, they should be defined by `surface-bright` backgrounds with no shadows, or simply by the spacing between their internal content.",
+        "colorVariant": "FIDELITY",
+        "overridePrimaryColor": "#eac165",
+        "overrideSecondaryColor": "#2d4a32",
+        "overrideTertiaryColor": "#aecfaf",
+        "overrideNeutralColor": "#071b16",
+        "spacingScale": 2,
+        "typography": {
+          "headline-md": {
+            "fontFamily": "Playfair Display",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "lineHeight": "1.3",
+            "letterSpacing": "0.1em"
+          },
+          "headline-lg-mobile": {
+            "fontFamily": "Playfair Display",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "lineHeight": "1.2"
+          },
+          "headline-lg": {
+            "fontFamily": "Playfair Display",
+            "fontSize": "48px",
+            "fontWeight": "400",
+            "lineHeight": "1.2"
+          },
+          "caption": {
+            "fontFamily": "Inter",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "1.4"
+          },
+          "display-lg": {
+            "fontFamily": "Playfair Display",
+            "fontSize": "64px",
+            "fontWeight": "400",
+            "lineHeight": "1.1",
+            "letterSpacing": "0.05em"
+          },
+          "body-md": {
+            "fontFamily": "Inter",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "1.6"
+          },
+          "label-caps": {
+            "fontFamily": "Inter",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "lineHeight": "1.0",
+            "letterSpacing": "0.3em"
+          },
+          "body-lg": {
+            "fontFamily": "Inter",
+            "fontSize": "18px",
+            "fontWeight": "300",
+            "lineHeight": "1.8",
+            "letterSpacing": "0.01em"
+          }
+        },
+        "spacing": {
+          "unit": "8px",
+          "margin-desktop": "80px",
+          "container-max": "1440px",
+          "gutter": "32px",
+          "margin-mobile": "24px",
+          "section-gap": "160px"
+        },
+        "headlineFontFamily": "Playfair Display",
+        "bodyFontFamily": "Inter",
+        "labelFontFamily": "Inter"
+      }
+    },
+    "version": "2"
+  }
+}

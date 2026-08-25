@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+<!-- STITCH_THREEJS_START:ANIMATION_3 class="fixed inset-0 w-full h-full bg-transparent" -->
+<div class="fixed inset-0 w-full h-full bg-transparent" style="display:block;">
+<script src="https://ajax.googleapis.com/ajax/libs/threejs/r125/three.min.js"></script>
+<div id="threejs-container-ANIMATION_3" style="width:100%;height:100%"></div>
+<script>
+(function() {
+  const container = document.getElementById('threejs-container-ANIMATION_3');
+  const devicePixelRatio = window.devicePixelRatio || 1;
+  const width = container.clientWidth || window.innerWidth;
+const height = container.clientHeight || window.innerHeight;
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
+const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+renderer.setSize(width, height);
+renderer.setPixelRatio(window.devicePixelRatio);
+container.appendChild(renderer.domElement);
+
+// Lighting
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+scene.add(ambientLight);
+
+const directionalLight = new THREE.DirectionalLight(0xd4af37, 1.2);
+directionalLight.position.set(5, 5, 5);
+scene.add(directionalLight);
+
+// Create a high-fidelity Tea Leaf geometry
+// Using a combination of shapes to form a leaf
+const leafGroup = new THREE.Group();
+
+const leafShape = new THREE.Shape();
+leafShape.moveTo(0, 0);
+leafShape.quadraticCurveTo(0.5, 1, 0, 2.5);
+leafShape.quadraticCurveTo(-0.5, 1, 0, 0);
+
+const extrudeSettings = { depth: 0.05, bevelEnabled: true, bevelThickness: 0.02, bevelSize: 0.05, bevelSegments: 3 };
+const geometry = new THREE.ExtrudeGeometry(leafShape, extrudeSettings);
+
+const material = new THREE.MeshPhongMaterial({ 
+    color: 0x2d5a27, // Forest Green leaf
+    shininess: 60,
+    specular: 0x444444
+});
+
+const leaf = new THREE.Mesh(geometry, material);
+leaf.rotation.x = Math.PI / 2;
+leaf.scale.set(1.5, 1.5, 1.5);
+leafGroup.add(leaf);
+
+// Add "veins" or texture with a slightly different green
+const veinGeometry = new THREE.BoxGeometry(0.02, 2.3, 0.02);
+const veinMaterial = new THREE.MeshPhongMaterial({ color: 0x1e3a1a });
+const midVein = new THREE.Mesh(veinGeometry, veinMaterial);
+midVein.position.y = 1.25;
+midVein.position.z = 0.05;
+leaf.add(midVein);
+
+scene.add(leafGroup);
+
+camera.position.z = 5;
+
+// Mouse interaction state
+let mouseX = 0;
+let mouseY = 0;
+let targetRotationX = 0;
+let targetRotationY = 0;
+
+window.addEventListener('mousemove', (event) => {
+    mouseX = (event.clientX / window.innerWidth) - 0.5;
+    mouseY = (event.clientY / window.innerHeight) - 0.5;
+});
+
+const animate = () => {
+    requestAnimationFrame(animate);
+    
+    // Continuous slow rotation
+    leafGroup.rotation.y += 0.005;
+    
+    // Tilt based on mouse
+    targetRotationX = mouseY * 0.5;
+    targetRotationY = mouseX * 0.5;
+    
+    leafGroup.rotation.x += (targetRotationX - leafGroup.rotation.x) * 0.05;
+    leafGroup.rotation.y += (targetRotationY - (leafGroup.rotation.y % (Math.PI * 2))) * 0.05;
+
+    renderer.render(scene, camera);
+};
+
+window.addEventListener('resize', () => {
+    const w = container.clientWidth || window.innerWidth;
+    const h = container.clientHeight || window.innerHeight;
+    camera.aspect = w / h;
+    camera.updateProjectionMatrix();
+    renderer.setSize(w, h);
+});
+
+animate();
+})();
+</script>
+</div>
+<!-- STITCH_THREEJS_END:ANIMATION_3 -->
+</body>
+</html>
