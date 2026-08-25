@@ -204,9 +204,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 5. Background Video Autoplay Resilience
+  // 5. Background Video Autoplay Resilience & Smooth Fade-In
   const bgVideo = document.getElementById('bg-video');
   if (bgVideo) {
+    const handleVideoReady = () => {
+      bgVideo.classList.add('is-loaded');
+    };
+
+    if (bgVideo.readyState >= 2) {
+      handleVideoReady();
+    } else {
+      bgVideo.addEventListener('loadeddata', handleVideoReady, { once: true });
+      bgVideo.addEventListener('playing', handleVideoReady, { once: true });
+      // Fallback timeout in case video loading is slow
+      setTimeout(handleVideoReady, 300);
+    }
+
     const playPromise = bgVideo.play();
     if (playPromise !== undefined) {
       playPromise.catch(() => {
