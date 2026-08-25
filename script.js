@@ -204,27 +204,37 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 5. Background Video Autoplay Resilience & Smooth Fade-In
+  // 5. Background Video Autoplay Resilience & Smooth Cinematic Reveal
   const bgVideo = document.getElementById('bg-video');
   if (bgVideo) {
-    const handleVideoReady = () => {
-      bgVideo.classList.add('is-loaded');
+    let hasRevealed = false;
+
+    const revealVideo = () => {
+      if (hasRevealed) return;
+      if (bgVideo.currentTime > 0.05 || bgVideo.readyState >= 3) {
+        hasRevealed = true;
+        // Use requestAnimationFrame for fluid frame transition
+        requestAnimationFrame(() => {
+          bgVideo.classList.add('is-loaded');
+        });
+      }
     };
 
-    if (bgVideo.readyState >= 2) {
-      handleVideoReady();
-    } else {
-      bgVideo.addEventListener('loadeddata', handleVideoReady, { once: true });
-      bgVideo.addEventListener('playing', handleVideoReady, { once: true });
-      // Fallback timeout in case video loading is slow
-      setTimeout(handleVideoReady, 300);
-    }
+    bgVideo.addEventListener('timeupdate', revealVideo);
+    bgVideo.addEventListener('playing', () => {
+      setTimeout(revealVideo, 80);
+    });
+    bgVideo.addEventListener('loadeddata', () => {
+      if (bgVideo.currentTime > 0) revealVideo();
+    });
 
     const playPromise = bgVideo.play();
     if (playPromise !== undefined) {
       playPromise.catch(() => {
         bgVideo.muted = true;
-        bgVideo.play().catch(() => { });
+        bgVideo.play().then(() => {
+          setTimeout(revealVideo, 100);
+        }).catch(() => { });
       });
     }
   }
