@@ -19,7 +19,28 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }, { passive: true });
 
-  // 2. Media Gallery Filter System
+  // 2. Media Gallery Filter System & Dedicated Modal Drawer
+  const mediaArchiveModal = document.getElementById('media-archive-modal');
+  const navMediaBtn = document.getElementById('nav-media-btn');
+  const openMediaCtaBtn = document.getElementById('open-media-cta-btn');
+  const closeMediaModalBtn = document.getElementById('close-media-modal-btn');
+
+  function openMediaDrawer() {
+    if (!mediaArchiveModal) return;
+    mediaArchiveModal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMediaDrawer() {
+    if (!mediaArchiveModal) return;
+    mediaArchiveModal.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  if (navMediaBtn) navMediaBtn.addEventListener('click', openMediaDrawer);
+  if (openMediaCtaBtn) openMediaCtaBtn.addEventListener('click', openMediaDrawer);
+  if (closeMediaModalBtn) closeMediaModalBtn.addEventListener('click', closeMediaDrawer);
+
   const filterBtns = document.querySelectorAll('.filter-btn');
   const galleryCards = document.querySelectorAll('.gallery-card');
 
@@ -94,18 +115,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     lightbox.classList.add('active');
     lightbox.setAttribute('aria-hidden', 'false');
-    if (lbClose) lbClose.focus();
+    document.body.style.overflow = 'hidden';
+    lbClose.focus();
   }
 
   function closeLightbox() {
     if (!lightbox) return;
-    const activeVideo = mediaBox.querySelector('video');
-    if (activeVideo) {
-      activeVideo.pause();
-    }
     lightbox.classList.remove('active');
     lightbox.setAttribute('aria-hidden', 'true');
-    mediaBox.innerHTML = '';
+    if (mediaBox) mediaBox.innerHTML = '';
+    // Restore overflow only if media drawer is not still open
+    if (!mediaArchiveModal || !mediaArchiveModal.classList.contains('active')) {
+      document.body.style.overflow = '';
+    }
     if (prevFocus) prevFocus.focus();
   }
 
@@ -134,8 +156,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && lightbox?.classList.contains('active')) {
-      closeLightbox();
+    if (e.key === 'Escape') {
+      if (lightbox && lightbox.classList.contains('active')) {
+        closeLightbox();
+      } else if (mediaArchiveModal && mediaArchiveModal.classList.contains('active')) {
+        closeMediaDrawer();
+      }
     }
   });
 

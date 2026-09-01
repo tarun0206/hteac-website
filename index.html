@@ -38,9 +38,10 @@
       </div>
     </a>
     <nav class="nav-menu" aria-label="Primary navigation">
-      <a href="#media-gallery" class="nav-link">The Archive</a>
-      <a href="#legacy-story" class="nav-link">Our Provenance</a>
-      <a href="#contact" class="nav-cta">Concierge</a>
+      <a href="#about-us" class="nav-link">About Us</a>
+      <a href="#founder-story" class="nav-link">Our Story</a>
+      <button type="button" class="nav-link" id="nav-media-btn" style="background: none; border: none; cursor: pointer; font-family: inherit;">The Archive</button>
+      <a href="#contact" class="nav-cta">Contact Us</a>
     </nav>
   </header>
 
@@ -65,8 +66,7 @@
 
         <!-- Subtitle Description -->
         <p class="hero-subtitle fade-in-up delay-4">
-          A modern elevation of India's most cherished daily ritual. Curated from the grand estates of Darjeeling,
-          Assam, and Munnar since 1973.
+          A modern elevation of India's most cherished daily ritual. Curated from India's grandest high-altitude tea estates since 1973.
         </p>
 
         <!-- Private Tasting Allocation Form -->
@@ -78,20 +78,21 @@
               placeholder="ENTER YOUR EMAIL FOR PRIVATE ALLOCATION" required autocomplete="email"
               aria-describedby="email-hint" />
             <span id="email-hint" class="sr-only">We will send an exclusive tasting invitation and archival release
-              notes.</span>
+              announcement to this email</span>
+            <button type="submit" class="submit-btn" id="submit-btn" aria-label="Submit invitation request">
+              <span class="btn-text">REQUEST INVITATION</span>
+              <span class="material-symbols-outlined btn-icon" aria-hidden="true">arrow_forward</span>
+            </button>
           </div>
-          <button type="submit" class="submit-btn" id="submit-btn" aria-label="Request Private Tasting Invitation">
-            <span id="btn-text">REQUEST INVITATION</span>
-            <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
-          </button>
+          <!-- Form Feedback Alerts -->
+          <div class="form-feedback-alert" id="form-feedback" role="status" aria-live="polite"></div>
         </form>
 
         <!-- Success State -->
         <div class="success-message" id="success-message" role="status" aria-live="polite">
           <div class="success-seal">♦</div>
           <p class="success-title">YOUR INVITATION HAS BEEN RESERVED</p>
-          <p class="success-sub">Our concierge will deliver exclusive tasting allocation notes directly to your inbox.
-          </p>
+          <p class="success-sub">Our concierge will deliver exclusive tasting allocation notes directly to your inbox.</p>
         </div>
 
         <!-- Tagline Quote -->
@@ -99,24 +100,119 @@
           “Sare Hindustaniyo ki bas ek hi raye — Chai peeni ho toh piyo sirf Hindustan Chai.”
         </blockquote>
 
-        <a href="#media-gallery" class="scroll-indicator" aria-label="Scroll to The Archive">
-          <span>ENTER THE ARCHIVE</span>
-          <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+        <!-- Provenance Scroll Hint -->
+        <a href="#about-us" class="scroll-cue fade-in-up delay-5" aria-label="Scroll down to explore our provenance">
+          <span class="scroll-label">EXPLORE OUR PROVENANCE</span>
+          <span class="material-symbols-outlined scroll-arrow" aria-hidden="true">expand_more</span>
         </a>
 
       </div>
     </section>
 
     <!-- =========================================================
-         THE ARCHIVE (MEDIA GALLERY & NATIONAL BROADCASTS)
+         OUR PROVENANCE (ABOUT US - 1973 LEGACY STORY)
          ========================================================= -->
-    <section class="section-wrapper" id="media-gallery" aria-label="The Media Archive">
-      <div class="section-header fade-in-up delay-1">
+    <section class="section-wrapper" id="about-us" aria-label="Our Story and Heritage">
+      <div class="legacy-split">
+
+        <div class="legacy-img-frame">
+          <img src="assets/legacy/about.jpg" alt="Hindustan Tea Heritage Tea Garden" class="legacy-img" loading="lazy">
+          <div class="legacy-img-overlay"></div>
+          <div class="legacy-badge-float">
+            <span class="legacy-badge-seal">♦</span>
+            <div class="legacy-badge-title">50+ YEARS</div>
+            <div class="legacy-badge-sub">Of Unbroken Heritage</div>
+          </div>
+        </div>
+
+        <div class="legacy-text-block">
+          <div class="editorial-eyebrow">
+            <span class="diamond-bullet">♦</span>
+            <span>OUR PROVENANCE</span>
+            <span class="diamond-bullet">♦</span>
+          </div>
+          <h2 class="legacy-heading">A Sacred Craft Since 1973</h2>
+
+          <div class="estate-coordinates">
+            <span>ASSAM 26.20°N</span> · <span>SONAJULI 26.83°N</span> · <span>UPPER BENGAL 26.72°N</span> · <span>NILGIRIS 11.41°N</span>
+          </div>
+
+          <p class="legacy-lead-para">
+            Our story began in 1973 when <strong>Sh. B.K. Singh</strong> embarked on a mission to bring pure,
+            unadulterated whole-leaf tea from India's most revered mountain slopes straight to discerning teacups.
+          </p>
+          <p>
+            Carried forward and modernized by Founder <strong>Mr. M.K. Singh</strong>, Hindustan Tea Company established
+            hygienic state-of-the-art precision blending while honoring century-old orthodox tea rituals — creating what
+            has truly become <em>"Everyone's Cup of Tea"</em>.
+          </p>
+
+          <div class="legacy-stats">
+            <div class="stat-item">
+              <div class="stat-number">1973</div>
+              <div class="stat-label">Inception Year</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">6+</div>
+              <div class="stat-label">Grand Estates</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Whole Leaf Purity</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Separate Clickable Media Archive Banner -->
+      <div class="media-cta-banner">
+        <button type="button" class="media-trigger-button" id="open-media-cta-btn">
+          <span class="material-symbols-outlined" style="font-size: 1.25rem;">play_circle</span>
+          Explore Media & Broadcast Archive
+        </button>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         THE FOUNDER'S STORY
+         ========================================================= -->
+    <section class="founder-story-section" id="founder-story" aria-label="The Founder's Story">
+      <div class="founder-card">
         <div class="editorial-eyebrow">
+          <span class="diamond-bullet">♦</span>
+          <span>THE FOUNDER'S JOURNEY</span>
+          <span class="diamond-bullet">♦</span>
+        </div>
+        <div class="founder-quote-glyph">“</div>
+        <h2 class="founder-heading">Vision of a Lifetime</h2>
+        <p class="founder-text">
+          "The pursuit of authentic tea is not merely a commercial endeavor, but a sacred covenant between the mountain soil, the morning mist, and the human spirit."
+        </p>
+        <div class="founder-signature-block">
+          <span class="founder-name">Mr. M.K. Singh</span>
+          <span class="founder-title">Founder & Managing Director · Hindustan Tea Company</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         THE ARCHIVE (MEDIA GALLERY DRAWER MODAL - SEPARATE TRIGGER)
+         ========================================================= -->
+    <div class="media-modal-drawer" id="media-archive-modal" role="dialog" aria-modal="true" aria-label="The Media Archive">
+      <div class="media-drawer-header">
+        <div class="editorial-eyebrow" style="margin: 0;">
           <span class="diamond-bullet">♦</span>
           <span>CINEMATIC ARCHIVE</span>
           <span class="diamond-bullet">♦</span>
         </div>
+        <button type="button" class="media-drawer-close" id="close-media-modal-btn">
+          <span class="material-symbols-outlined" style="font-size: 1.15rem;">close</span>
+          Close Archive
+        </button>
+      </div>
+
+      <div class="section-header">
         <h2 class="section-title">THE BROADCASTS & ESTATES</h2>
         <p class="section-desc">
           Documenting half a century of whole-leaf craftsmanship, national television spotlight features on Zee
@@ -203,25 +299,25 @@
 
         <!-- Image 1: Estates -->
         <div class="gallery-card" data-category="estates" data-type="image"
-          data-src="assets/legacy/project_thumb01.jpeg" data-title="First Flush Darjeeling Terraces"
-          data-desc="Direct procurement from the highest mountain estates of Darjeeling, Assam, and Sonajuli at 6,500 feet elevation.">
+          data-src="assets/legacy/project_thumb01.jpeg" data-title="First Flush Mountain Terraces"
+          data-desc="Direct procurement from pristine mountain estates across Assam, Sonajuli, and Upper Bengal at 6,500 feet elevation.">
           <div class="card-media-wrapper">
-            <img src="assets/legacy/project_thumb01.jpeg" alt="Darjeeling Mountain Terraces" class="card-media"
+            <img src="assets/legacy/project_thumb01.jpeg" alt="Mountain Terraces" class="card-media"
               loading="lazy">
             <span class="card-badge">Estate Origin</span>
           </div>
           <div class="card-content">
-            <span class="card-origin-tag">Darjeeling · 6,500 ft</span>
+            <span class="card-origin-tag">Upper Bengal · 6,500 ft</span>
             <h3 class="card-title">The First Flush Plucking</h3>
             <p class="card-subtitle">Handpicked tender two-leaves-and-a-bud harvested in dawn mountain mist across
-              Darjeeling's steep southern slopes.</p>
+              steep southern slopes.</p>
           </div>
         </div>
 
         <!-- Image 2: Craft -->
         <div class="gallery-card" data-category="craft" data-type="image" data-src="assets/legacy/plant_img05.png"
           data-title="Aroma-Sealed Precision Craft"
-          data-desc="Hermetically sealed multi-layer packaging preserving delicate muscatel top-notes and rich tea polyphenols.">
+          data-desc="Hermetically sealed multi-layer packaging preserving delicate top-notes and rich tea polyphenols.">
           <div class="card-media-wrapper">
             <img src="assets/legacy/plant_img05.png" alt="Aroma-Sealed Packaging" class="card-media" loading="lazy">
             <span class="card-badge">Artisanal Packaging</span>
@@ -252,124 +348,23 @@
         </div>
 
       </div>
-    </section>
+    </div>
 
-    <!-- =========================================================
-         HERITAGE BLENDS SHOWCASE (Hidden for now)
-         ========================================================= -->
+    <!-- Heritage Blends Showcase (Hidden via CSS) -->
     <section class="section-wrapper" id="tea-blends" aria-label="Our Tea Blends" style="display: none;">
-      <div class="section-header">
-        <h2 class="section-title">SIGNATURE HERITAGE BLENDS</h2>
-        <p class="section-desc">
-          Rooted in Ayurvedic herbs and whole-leaf traditions. Bringing blends beyond milk for mindful vitality and
-          daily refreshment.
-        </p>
-      </div>
-
-      <div class="blends-grid">
-        <div class="blend-card">
-          <div class="blend-icon-wrapper">
-            <img src="assets/legacy/features_img01.png" alt="Tulsi Tea" class="blend-icon-img" loading="lazy">
-          </div>
-          <h3 class="blend-name">Tulsi Tea</h3>
-          <p class="blend-notes">Infused with sacred Holy Basil. Helps relieve daily stress, promotes natural cellular
-            energy, and restores inner equilibrium.</p>
-        </div>
-        <div class="blend-card">
-          <div class="blend-icon-wrapper">
-            <img src="assets/legacy/features_img02.png" alt="Ginger Tea" class="blend-icon-img" loading="lazy">
-          </div>
-          <h3 class="blend-name">Ginger Tea</h3>
-          <p class="blend-notes">Sun-dried mountain ginger paired with brisk Assam orthodox leaves to stimulate
-            circulation and soothe digestion.</p>
-        </div>
-        <div class="blend-card">
-          <div class="blend-icon-wrapper">
-            <img src="assets/legacy/features_img03.png" alt="Herbal Tea" class="blend-icon-img" loading="lazy">
-          </div>
-          <h3 class="blend-name">Herbal Tea</h3>
-          <p class="blend-notes">A delicate botanical infusion of antioxidant-rich herbs crafted for calm evenings and
-            restorative sleep.</p>
-        </div>
-        <div class="blend-card">
-          <div class="blend-icon-wrapper">
-            <img src="assets/legacy/features_img04.png" alt="Orange Tea" class="blend-icon-img" loading="lazy">
-          </div>
-          <h3 class="blend-name">Orange Tea</h3>
-          <p class="blend-notes">Zesty citrus peel and golden leaves that invigorate the senses with vitamin-rich
-            uplifting brightness.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- =========================================================
-         OUR PROVENANCE (1973 LEGACY STORY)
-         ========================================================= -->
-    <section class="section-wrapper" id="legacy-story" aria-label="Our Story and Heritage">
-      <div class="legacy-split">
-
-        <div class="legacy-img-frame">
-          <img src="assets/legacy/about.jpg" alt="Hindustan Tea Heritage Tea Garden" class="legacy-img" loading="lazy">
-          <div class="legacy-img-overlay"></div>
-          <div class="legacy-badge-float">
-            <span class="legacy-badge-seal">♦</span>
-            <div class="legacy-badge-title">50+ YEARS</div>
-            <div class="legacy-badge-sub">Of Unbroken Heritage</div>
-          </div>
-        </div>
-
-        <div class="legacy-text-block">
-          <div class="editorial-eyebrow">
-            <span class="diamond-bullet">♦</span>
-            <span>OUR PROVENANCE</span>
-            <span class="diamond-bullet">♦</span>
-          </div>
-          <h2 class="legacy-heading">A Sacred Craft Since 1973</h2>
-
-          <div class="estate-coordinates">
-            <span>DARJEELING 27.04°N</span> · <span>ASSAM 26.20°N</span> · <span>SONAJULI 26.83°N</span> · <span>MUNNAR
-              10.08°N</span>
-          </div>
-
-          <p class="legacy-lead-para">
-            Our story began in 1973 when <strong>Sh. B.K. Singh</strong> embarked on a mission to bring pure,
-            unadulterated whole-leaf tea from India's most revered mountain slopes straight to discerning teacups.
-          </p>
-          <p>
-            Carried forward and modernized by Founder <strong>Mr. M.K. Singh</strong>, Hindustan Tea Company established
-            hygienic state-of-the-art precision blending while honoring century-old orthodox tea rituals — creating what
-            has truly become <em>"Everyone's Cup of Tea"</em>.
-          </p>
-
-          <div class="legacy-stats">
-            <div class="stat-item">
-              <div class="stat-number">1973</div>
-              <div class="stat-label">Inception Year</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-number">6+</div>
-              <div class="stat-label">Grand Estates</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-number">100%</div>
-              <div class="stat-label">Whole Leaf Purity</div>
-            </div>
-          </div>
-        </div>
-
-      </div>
     </section>
 
   </main>
 
   <!-- =========================================================
-       FOOTER & CONCIERGE
+       FOOTER & COMPANY INFORMATION
        ========================================================= -->
   <footer class="site-footer" id="contact" role="contentinfo">
     <div class="footer-content">
-      <div class="footer-top-grid">
+      <div class="footer-links-grid">
 
-        <div>
+        <!-- Brand Col -->
+        <div class="footer-nav-col">
           <div class="brand-wrapper">
             <img src="assets/legacy/w_logo.png" alt="Hindustan Tea Company Emblem" class="brand-logo-img">
             <div class="brand-text-block">
@@ -383,80 +378,69 @@
           </p>
         </div>
 
-        <div>
-          <div class="footer-col-title">Registered Office</div>
-          <ul class="footer-contact-list">
-            <li class="footer-contact-item">
-              <span class="material-symbols-outlined"
-                style="font-size: 1.15rem; color: var(--color-gold-primary);">location_on</span>
-              <span>A-603, IRCON Apartment, Plot No. 14, Sector-18 'A', Dwarka, New Delhi – 110078</span>
-            </li>
+        <!-- COMPANY Col -->
+        <div class="footer-nav-col">
+          <div class="footer-col-title">COMPANY</div>
+          <ul class="footer-nav-links">
+            <li class="footer-nav-item"><a href="#about-us">About Us</a></li>
+            <li class="footer-nav-item"><a href="#founder-story">Our Story</a></li>
+            <li class="footer-nav-item"><a href="#contact">Contact Us</a></li>
+            <li class="footer-nav-item"><a href="company-info.html">Company Information</a></li>
           </ul>
         </div>
 
-        <div>
-          <div class="footer-col-title">Factory Cum Work</div>
-          <ul class="footer-contact-list">
-            <li class="footer-contact-item">
-              <span class="material-symbols-outlined"
-                style="font-size: 1.15rem; color: var(--color-gold-primary);">factory</span>
-              <span>Plot No. P-21, Street No. 6, Sector-3, Reliance MET City, Jhajjar, Haryana – 124103</span>
-            </li>
+        <!-- CUSTOMER CARE Col -->
+        <div class="footer-nav-col">
+          <div class="footer-col-title">CUSTOMER CARE</div>
+          <ul class="footer-nav-links">
+            <li class="footer-nav-item"><a href="shipping-policy.html">Shipping Policy</a></li>
+            <li class="footer-nav-item"><a href="refund-policy.html">Return & Refund Policy</a></li>
+            <li class="footer-nav-item"><a href="refund-policy.html#cancellation">Cancellation Policy</a></li>
+            <li class="footer-nav-item"><a href="tel:+919818554415">+91 98185 54415</a></li>
+            <li class="footer-nav-item"><a href="mailto:hindustanteacompany@gmail.com">Email Support</a></li>
           </ul>
         </div>
 
-        <div>
-          <div class="footer-col-title">Direct Concierge</div>
-          <ul class="footer-contact-list">
-            <li class="footer-contact-item">
-              <span class="material-symbols-outlined"
-                style="font-size: 1.15rem; color: var(--color-gold-primary);">call</span>
-              <a href="tel:+919818554415">+91 98185 54415</a>
-            </li>
-            <li class="footer-contact-item">
-              <span class="material-symbols-outlined"
-                style="font-size: 1.15rem; color: var(--color-gold-primary);">mail</span>
-              <a href="mailto:hindustanteacompany@gmail.com">hindustanteacompany@gmail.com</a>
-            </li>
-            <li class="footer-contact-item">
-              <span class="material-symbols-outlined"
-                style="font-size: 1.15rem; color: var(--color-gold-primary);">language</span>
-              <a href="https://www.hindustantea.com">www.hindustantea.com</a>
-            </li>
-            <li class="footer-contact-item">
-              <span class="material-symbols-outlined"
-                style="font-size: 1.15rem; color: var(--color-gold-primary);">chat</span>
-              <a href="https://api.whatsapp.com/send?phone=919818554415&text=Hi%20Hindustan%20Tea%20Company"
-                target="_blank" rel="noopener noreferrer">WhatsApp Direct</a>
-            </li>
-            <li class="footer-contact-item">
-              <span class="material-symbols-outlined"
-                style="font-size: 1.15rem; color: var(--color-gold-primary);">photo_camera</span>
-              <a href="https://www.instagram.com/h.tea.c_/" target="_blank" rel="noopener noreferrer">Instagram:
-                @h.tea.c_</a>
-            </li>
+        <!-- LEGAL Col -->
+        <div class="footer-nav-col">
+          <div class="footer-col-title">LEGAL</div>
+          <ul class="footer-nav-links">
+            <li class="footer-nav-item"><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li class="footer-nav-item"><a href="terms.html">Terms & Conditions</a></li>
+            <li class="footer-nav-item"><a href="refund-policy.html">Refund Policy</a></li>
+            <li class="footer-nav-item"><a href="company-info.html">Statutory Disclosure</a></li>
           </ul>
         </div>
 
       </div>
 
-      <!-- Official GST Trust Bar -->
-      <div class="gst-verification-strip">
-        <div class="gst-badge-pill">
-          <span class="gst-label">GST NO:</span>
-          <span class="gst-number">06AAICH6555L1Z4</span>
+      <!-- Subtle Corporate & GST Disclosure Bar -->
+      <div class="corporate-disclosure-bar">
+        <p class="corporate-disclosure-text">
+          <strong>Hindustan Tea Company Private Limited</strong> · GSTIN: 06AAICH6555L1Z4 · Regd. Office: Dwarka, New Delhi – 110078
+        </p>
+        <div class="footer-policies-row">
+          <a href="privacy-policy.html" class="policy-mini-link">Privacy Policy</a>
+          <span class="diamond-bullet">·</span>
+          <a href="terms.html" class="policy-mini-link">Terms & Conditions</a>
+          <span class="diamond-bullet">·</span>
+          <a href="shipping-policy.html" class="policy-mini-link">Shipping Policy</a>
+          <span class="diamond-bullet">·</span>
+          <a href="refund-policy.html" class="policy-mini-link">Returns & Refunds</a>
+          <span class="diamond-bullet">·</span>
+          <a href="company-info.html" class="policy-mini-link">Company Information</a>
         </div>
       </div>
 
       <div class="footer-bottom-bar">
-        <div class="copyright-text">© 1973–2026 Hindustan Tea Company. Crafted with Pride in India.</div>
+        <div class="copyright-text">© 2026 Hindustan Tea Company Private Limited. All Rights Reserved.</div>
         <div class="social-links">
           <a href="https://www.instagram.com/h.tea.c_/" target="_blank" rel="noopener noreferrer" class="social-link"
             aria-label="Follow Hindustan Tea Company on Instagram @h.tea.c_">Instagram (@h.tea.c_)</a>
-          <a href="https://www.linkedin.com/company/hindustan-tea-company/" target="_blank" rel="noopener noreferrer"
-            class="social-link" aria-label="Visit Hindustan Tea Company LinkedIn">LinkedIn</a>
           <a href="https://api.whatsapp.com/send?phone=919818554415&text=Hi%20Hindustan%20Tea%20Company" target="_blank"
             rel="noopener noreferrer" class="social-link" aria-label="Chat on WhatsApp">WhatsApp Direct</a>
+          <a href="https://www.linkedin.com/company/hindustan-tea-company/" target="_blank" rel="noopener noreferrer"
+            class="social-link" aria-label="Visit Hindustan Tea Company LinkedIn">LinkedIn</a>
         </div>
       </div>
     </div>
