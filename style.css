@@ -546,39 +546,35 @@ body {
   to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
-.hero-tagline {
-  margin-top: 4.5rem;
-  font-family: var(--font-serif);
-  font-size: 1.32rem;
-  font-style: italic;
-  color: var(--color-sage-muted);
-  letter-spacing: 0.03em;
-  line-height: 1.6;
-  max-width: 640px;
-}
-
-.scroll-indicator {
-  margin-top: 2.5rem;
+.scroll-indicator,
+.scroll-indicator:visited {
+  margin-top: 3rem;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.6rem;
-  color: var(--color-gold-primary);
-  text-decoration: none;
+  gap: 0.5rem;
+  color: var(--color-gold-primary) !important;
+  text-decoration: none !important;
   font-family: var(--font-display);
-  font-size: 0.68rem;
-  letter-spacing: 0.3em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
   text-transform: uppercase;
-  opacity: 0.8;
-  transition: var(--transition-normal);
+  opacity: 0.9;
+  transition: all var(--transition-normal);
 }
 
-.scroll-indicator:hover {
+.scroll-indicator:hover,
+.scroll-indicator:focus-visible {
   opacity: 1;
-  color: var(--color-gold-bright);
+  color: var(--color-gold-bright) !important;
+  text-shadow: 0 0 16px var(--color-gold-glow);
+  transform: translateY(2px);
 }
 
 .scroll-indicator .material-symbols-outlined {
+  font-size: 1.4rem;
+  color: var(--color-gold-primary);
   animation: floatDown 2.4s infinite var(--ease-smooth);
 }
 
